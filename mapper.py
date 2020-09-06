@@ -2,7 +2,7 @@ import gmplot
 
 
 def mapIt(lat, long):
-    apikey = 'AIzaSyDA0YL9hk6IDbghZe2ZUMnG0n_01a0DGE8'  # (your API key here)
+    apikey = 'key-here' # (your API key here)
     gmap = gmplot.GoogleMapPlotter(37.766956, -122.448481, 5, apikey=apikey)
 
     # Outline the Golden Gate Park:
