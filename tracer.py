@@ -15,7 +15,7 @@ if len(sys.argv) == 2:
     hostname = sys.argv[1]
     try:
         logging.info("Starting traceroute for [ " + hostname + " ]")
-        COMMAND = "echo \"mib\" | sudo -S tcptraceroute -n " + hostname + " | awk '{print $2}'"
+        COMMAND = "echo \"pas here\" | sudo -S tcptraceroute -n " + hostname + " | awk '{print $2}'"
         RESULT = Popen(COMMAND,stdout=PIPE,shell=True)
         BASE_URL="http://ip-api.com/json/"
         latitudes = []
